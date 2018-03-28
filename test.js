@@ -1,4 +1,4 @@
-import Parallel from './Parallel';
+const Parallel = require('./Parallel');
 
 const runner = new Parallel({
   parallelJobs: 2,

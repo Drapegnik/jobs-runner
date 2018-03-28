@@ -2,9 +2,10 @@
   "name": "jobs-runner",
   "version": "1.0.0",
   "description": "parallel jobs runner. task for workshop.",
-  "main": "index.js",
+  "main": "test.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "npm run test",
+    "test": "node test.js"
   },
   "keywords": [
     "nodejs",
